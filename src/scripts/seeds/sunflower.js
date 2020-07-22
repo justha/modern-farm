@@ -1,11 +1,8 @@
-const sunflower = [
-    {
-        type: "sunflower", 
+export const createSunflower = () => {
+    const sunflower = {   
+        type: "Sunflower", 
         height: 380, 
         output: 3
     }
-]
-
-export const createSunflower = () => {
-    return sunflower.slice()
+    return sunflower
 }

@@ -1,11 +1,10 @@
-const asparagus = [
-    {
-        type: "asparagus", 
+//define and export a function (for creating a seed)
+
+export const createAsparagus = () => {
+    const asparagus = {   
+        type: "Asparagus", 
         height: 24, 
         output: 4
     }
-]
-
-export const createAsparagus = () => {
-    return asparagus.slice()
+    return asparagus
 }
