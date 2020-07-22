@@ -1,4 +1,4 @@
-const createSunflower [
+const createSunflower = [
     {
         type: "sunflower", 
         height: 380, 

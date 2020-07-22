@@ -1,4 +1,4 @@
-const createPotato [
+const createPotato = [
     {
         type: "potato", 
         height: 32, 
