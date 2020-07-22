@@ -1,4 +1,4 @@
-const createWheat [
+const createWheat = [
     {
         type: "wheat", 
         height: 230, 

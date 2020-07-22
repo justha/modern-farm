@@ -1,4 +1,4 @@
-const createAsparagus [
+const createAsparagus = [
     {
         type: "asparagus", 
         height: 24, 

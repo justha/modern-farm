@@ -1,4 +1,4 @@
-const createSoybean [
+const createSoybean = [
     {
         type: "soybean", 
         height: 20, 
