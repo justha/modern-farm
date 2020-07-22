@@ -2,7 +2,7 @@ const addPlant = (seedObj) => {
     
     let plantsInField = []
     
-    for const (seed of seeds) {
+    for (const seed of seeds) {
         plantsInField.push(seed)
     }    
 }

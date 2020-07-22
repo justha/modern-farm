@@ -1,4 +1,4 @@
-const createWheat = [
+const wheat = [
     {
         type: "wheat", 
         height: 230, 
@@ -6,6 +6,6 @@ const createWheat = [
     }
 ]
 
-export const wheatSeed = () => {
-    return createWheat.slice()
+export const createWheat = () => {
+    return wheat.slice()
 }

@@ -1,4 +1,4 @@
-const createAsparagus = [
+const asparagus = [
     {
         type: "asparagus", 
         height: 24, 
@@ -6,6 +6,6 @@ const createAsparagus = [
     }
 ]
 
-export const asparagusSeed = () => {
-    return createAsparagus.slice()
+export const createAsparagus = () => {
+    return asparagus.slice()
 }
