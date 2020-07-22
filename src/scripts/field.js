@@ -1,13 +1,13 @@
 const addPlant = (seedObj) => {
     
-    let plants = []
+    let plantsInField = []
     
     for const (seed of seeds) {
-        plants.push(seed)
+        plantsInField.push(seed)
     }    
 }
 
 export const usePlants = () => {
-    return plants.slice
+    return plantsInField.slice
 
 }
