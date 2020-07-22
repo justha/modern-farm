@@ -1,4 +1,4 @@
-const createSunflower = [
+const sunflower = [
     {
         type: "sunflower", 
         height: 380, 
@@ -6,6 +6,6 @@ const createSunflower = [
     }
 ]
 
-export const sunflowerSeed = () => {
-    return createSunflower.slice()
+export const createSunflower = () => {
+    return sunflower.slice()
 }

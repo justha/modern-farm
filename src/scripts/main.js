@@ -5,16 +5,16 @@ const yearlyPlan = createPlan()
 console.log(yearlyPlan)
 
 
-// TEST CODE--The following code should display an object with three properties - 
+// TEST CODE: CREATING SEEDS--The following code should display an object with three properties - 
 // shape, weight, height - the developer console.
 
-import { createAsparagus } from "./seeds/asparagus.js"
+import { asparagusSeed } from "./seeds/asparagus.js"
 
 const asparagusSeed = createAsparagus()
 console.log(asparagusSeed)
 
 
-//TEST CODE--
+//TEST CODE: TILLING FIELD--
 // 1) Create seed object 
 const seedObj = asparagusSeed
 
@@ -30,3 +30,12 @@ const aspargusPlant = () => {
 
 // 4) Use console.log() to make sure your seed object got added to the array of plans in the field 
 console.log(aspargusPlant)
+
+
+//TEST CODE: SOWING FIELD--
+
+
+//TEST CODE: HARVEST--
+
+
+//TEST CODE: SOWING SELLING--

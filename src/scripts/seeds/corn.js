@@ -1,4 +1,4 @@
-const createCorn = [
+const corn = [
     {
         type: "corn", 
         height: 180, 
@@ -11,8 +11,8 @@ const createCorn = [
     }
 ]
 
-export const cornSeed = () => {
-    return createCorn.slice()
+export const createCorn = () => {
+    return corn.slice()
 }
 
 

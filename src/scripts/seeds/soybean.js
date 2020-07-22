@@ -1,4 +1,4 @@
-const createSoybean = [
+const soybean = [
     {
         type: "soybean", 
         height: 20, 
@@ -6,6 +6,6 @@ const createSoybean = [
     }
 ]
 
-export const soybeanSeed = () => {
-    return createSoybean.slice()
+export const createSoybean = () => {
+    return soybean.slice()
 }
